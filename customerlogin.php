@@ -11,12 +11,15 @@ if (isset($_SESSION['login_user2'])) {
 
 <head>
   <title> Guest Login | Zarathelle PH </title>
-</head>
 
-<link rel="stylesheet" type="text/css" href="css/managerlogin.css">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/managerlogin.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <?php include "components/libraries.php" ?>
+
+</head>
 
 <body>
 
