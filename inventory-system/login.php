@@ -1,5 +1,7 @@
+<!-- FROM managerlogin.php -->
+
 <?php
-include('login_m.php'); // Includes Login Script
+include('DB/login.php'); // Includes Login Script
 
 if (isset($_SESSION['login_user1'])) {
   header("location: store.php"); //Redirecting to myrestaurant Page
@@ -13,12 +15,12 @@ if (isset($_SESSION['login_user1'])) {
   <title> Manager Login | Zarathelle PH </title>
 
   <link rel="stylesheet" type="text/css" href="css/managerlogin.css">
-  <?php include "components/libraries.php" ?>
+  <?php include "../components/libraries.php" ?>
 
 </head>
 
 <body>
-  <?php include 'components/navbar.php' ?>
+  <?php include '../components/navbar.php' ?>
 
   <div class="container">
     <div class="jumbotron">

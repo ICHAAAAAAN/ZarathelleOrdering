@@ -4,10 +4,7 @@ session_start();
 if (!isset($_SESSION['login_user2'])) {
   header("location: customerlogin.php");
 }
-
 ?>
-
-
 <html>
 
 <head>
@@ -86,7 +83,8 @@ if (!isset($_SESSION['login_user2'])) {
           <li><a href="#"><span class="glyphicon glyphicon-user"></span> Welcome <?php echo $_SESSION['login_user1']; ?>
             </a></li>
           <li><a href="store.php">MANAGER CONTROL PANEL</a></li>
-          <li><a href="logout_m.php"><span class="glyphicon glyphicon-log-out"></span> Log Out </a></li>
+          <li><a href="logout_m.php">
+              <span class="glyphicon glyphicon-log-out"></span> Log Out </a></li>
         </ul>
         <?php
         } else if (isset($_SESSION['login_user2'])) {

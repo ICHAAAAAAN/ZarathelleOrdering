@@ -11,18 +11,11 @@ if (isset($_SESSION['login_user2'])) {
 
 <head>
   <title> Guest Login | Zarathelle PH </title>
-
   <link rel="stylesheet" type="text/css" href="css/managerlogin.css">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
   <?php include "components/libraries.php" ?>
-
 </head>
 
 <body>
-
 
   <button onclick="topFunction()" id="myBtn" title="Go to top">
     <span class="glyphicon glyphicon-chevron-up"></span>
@@ -108,7 +101,6 @@ if (isset($_SESSION['login_user2'])) {
         <div class="panel-body">
 
           <form action="" method="POST">
-
             <div class="row">
               <div class="form-group col-xs-12">
                 <label for="username"><span class="text-danger" style="margin-right: 5px;">*</span> Username:

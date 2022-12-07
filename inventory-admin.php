@@ -2,28 +2,22 @@
 include('session_m.php');
 
 if (!isset($login_session)) {
-  header('Location: managerlogin.php');
+  header('Location: managerlogin.php'); // Redirecting To Home Page
 }
-
-$_SESSION["page"] = "add item";
-
-
 ?>
+
 <!DOCTYPE html>
 <html>
 
 <head>
   <title> Manager Login | Zarathelle PH </title>
 
-  <link rel="stylesheet" type="text/css" href="css/add_items.css">
-  <?php include "components/libraries.php" ?>
+  <link rel="stylesheet" type="text/css" href="css/store.css">
 
+  <?php include "components/libraries.php" ?>
 </head>
 
 <body>
-  <?php
-  print_r($_SESSION);
-  ?>
   <nav class="navbar navbar-inverse navbar-fixed-top navigation-clean-search" role="navigation">
     <div class="container">
       <div class="navbar-header">
@@ -71,43 +65,53 @@ $_SESSION["page"] = "add item";
     </div>
 
 
-    <?php include "components/inventory-menu.php" ?>
+    <div class="col-xs-3" style="text-align: center;">
+
+      <div class="list-group">
+
+        <a href="view_food_items.php" class="list-group-item ">View Food Items</a>
+        <a href="add_items.php" class="list-group-item ">Add Food Items</a>
+        <a href="edit_items.php" class="list-group-item ">Edit Food Items</a>
+        <a href="delete_items.php" class="list-group-item ">Delete Food Items</a>
+      </div>
+    </div>
+
 
 
 
     <div class="col-xs-9">
       <div class="form-area" style="padding: 0px 100px 100px 100px;">
-        <form action="add_items1.php" method="POST">
+        <form action="store1.php" method="POST">
           <br style="clear: both">
-          <h3 style="margin-bottom: 25px; text-align: center; font-size: 30px;"> ADD NEW FOOD ITEM HERE </h3>
+          <h3 style="margin-bottom: 25px; text-align: center; font-size: 30px;"> MY RESTAURANT</h3>
 
           <div class="form-group">
-            <input type="text" class="form-control" id="name" name="name" placeholder="Your Food name" required="">
-          </div>
-
-          <div class="form-group">
-            <input type="text" class="form-control" id="price" name="price" placeholder="Your Food Price (INR)"
+            <input type="text" class="form-control" id="name" name="name" placeholder="Your Restaurant's Name"
               required="">
           </div>
 
           <div class="form-group">
-            <input type="text" class="form-control" id="description" name="description"
-              placeholder="Your Food Description" required="">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Your Restaurant's Email"
+              required="">
           </div>
 
           <div class="form-group">
-            <input type="text" class="form-control" id="images_path" name="images_path"
-              placeholder="Your Food Image Path [images/<filename>.<extention>]" required="">
+            <input type="text" class="form-control" id="contact" name="contact"
+              placeholder="Your Restaurant's Contact Number" required="">
           </div>
 
           <div class="form-group">
-            <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right"> ADD FOOD </button>
+            <input type="text" class="form-control" id="address" name="address" placeholder="Your Restaurant's Address"
+              required="">
+          </div>
+
+          <div class="form-group">
+            <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right"> ADD RESTAURANT </button>
           </div>
         </form>
 
 
       </div>
-
     </div>
   </div>
 
