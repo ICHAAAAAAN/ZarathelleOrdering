@@ -214,7 +214,6 @@ if (!isset($_SESSION['login_user2'])) {
           'item_id' => $_GET["id"],
           'item_name' => $_POST["hidden_name"],
           'item_price' => $_POST["hidden_price"],
-          'R_ID' => $_POST["hidden_RID"],
           'item_quantity' => $_POST["quantity"]
         );
         $_SESSION["cart"][$count] = $item_array;
@@ -228,7 +227,6 @@ if (!isset($_SESSION['login_user2'])) {
         'item_id' => $_GET["id"],
         'item_name' => $_POST["hidden_name"],
         'item_price' => $_POST["hidden_price"],
-        'R_ID' => $_POST["hidden_RID"],
         'item_quantity' => $_POST["quantity"]
       );
       $_SESSION["cart"][0] = $item_array;
