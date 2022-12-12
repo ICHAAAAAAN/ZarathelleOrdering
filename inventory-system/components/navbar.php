@@ -35,7 +35,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#"><span class="glyphicon glyphicon-user"></span> Welcome <?php echo $_SESSION['login_user2']; ?>
             </a></li>
-          <li><a href="../itemlist.php"><span class="glyphicon glyphicon-cutlery"></span> Food Zone </a></li>
+          <li><a href="../itemlist.php"><span class="glyphicon glyphicon-tags"></span> Items </a></li>
           <li><a href="../cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart
               (<?php
                   if (isset($_SESSION["cart"])) {
