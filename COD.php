@@ -140,7 +140,7 @@ else {
         </div>
         <br>
 
-<h2 class="text-center"> Thank you for Ordering at Le Cafe'! The ordering process is now complete.</h2>
+<h2 class="text-center"> Thank you for Ordering at Zarathelle! The ordering process is now complete.</h2>
 
 <?php 
   $num1 = rand(100000,999999); 

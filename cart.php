@@ -137,7 +137,6 @@ if (!isset($_SESSION['login_user2'])) {
   <div class="container">
     <div class="jumbotron">
       <h1>Your Shopping Cart</h1>
-      <p>Looks tasty...!!!</p>
 
     </div>
 
@@ -190,7 +189,7 @@ if (!isset($_SESSION['login_user2'])) {
   <div class="container">
     <div class="jumbotron">
       <h1>Your Shopping Cart</h1>
-      <p>Oops! We can't smell any food here. Go back and <a href="itemlist.php">order now.</a></p>
+      <p>Boo! Your cart is empty. Go back and <a href="itemlist.php">order now.</a></p>
 
     </div>
 
