@@ -92,7 +92,7 @@ if (!isset($_SESSION['login_user2'])) {
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#"><span class="glyphicon glyphicon-user"></span> Welcome <?php echo $_SESSION['login_user2']; ?>
             </a></li>
-          <li class="active"><a href="itemlist.php"><span class="glyphicon glyphicon-cutlery"></span> Food Zone </a>
+          <li class="active"><a href="itemlist.php"><span class="glyphicon glyphicon-cutlery"></span> Items </a>
           </li>
           <li><a href="cart.php">
               <span class="glyphicon glyphicon-shopping-cart"></span> Cart (<?php
@@ -150,7 +150,7 @@ if (!isset($_SESSION['login_user2'])) {
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="images/slide002.jpg" style="width:100%;">
+        <img src="images/zlide2.png" style="width:100%;">
         <div class="carousel-caption">
         </div>
       </div>
@@ -163,13 +163,13 @@ if (!isset($_SESSION['login_user2'])) {
       </div-->
 
       <div class="item">
-        <img src="images/slide001.jpg" style="width:100%;">
+        <img src="images/zlide1.png" style="width:100%;">
         <div class="carousel-caption">
 
         </div>
       </div>
       <div class="item">
-        <img src="images/slide003.jpg" style="width:100%;">
+        <img src="images/zlide3.png" style="width:100%;">
         <div class="carousel-caption">
         </div>
       </div>
@@ -187,7 +187,7 @@ if (!isset($_SESSION['login_user2'])) {
 
   <div class="jumbotron">
     <div class="container text-center">
-      <h1>Welcome To Le Cafe'</h1>
+      <h1>Welcome To Zarathelle</h1>
       <!--p>Let food be thy medicine and medicine be thy food</p-->
     </div>
   </div>
