@@ -1,4 +1,5 @@
-body,html {
+body,
+html {
   height: 100%;
   background-color: #fbd5d5;
   width: auto;
@@ -8,8 +9,7 @@ body {
   padding-top: 50px;
 }
 
-
-#myBtn{
+#myBtn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -28,45 +28,43 @@ body {
   color: white;
 }
 
-.bg-4{
+.bg-4 {
   outline: none;
   background-color: #847366a6;
-
 }
 
-footer{
+footer {
   display: block;
-
 }
 
 /*for Heading name*/
-.edit{
+.edit {
   text-shadow: 2px 2px 5px #fbd5d5;
   color: #333;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: rgba(51, 51, 51, 0.781) !important;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: rgba(51, 51, 51, 0.527) !important;
 }
 
-.container-fluid{
- width: 100%;
- margin:0%;
-padding:0%;
-overflow-x:hidden;
+.container-fluid {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
 }
-.jumbotron{
+.jumbotron {
   background-color: #fbd5d5 !important;
   text-align: center;
 }
-.panel-heading{
+.panel-heading {
   background-color: #847366a6 !important;
 }
-form{
+form {
   background-color: #847366a6;
   padding: 20px 40px 60px;
   margin: 0px 0px 50px;
@@ -74,6 +72,6 @@ form{
   border-radius: 5%;
   position: center;
 }
-label a{
+label a {
   color: #333;
 }
