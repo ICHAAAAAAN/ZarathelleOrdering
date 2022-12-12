@@ -1,6 +1,6 @@
 body,html {
   height: 100%;
-  background-color: #fbd5d5;
+  background-color: white;
  }
 
 body {
@@ -16,20 +16,20 @@ body {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: green;
+  background-color: #847366a6;
   color: white;
   cursor: pointer;
   padding: 15px;
   border-radius: 10px;
 }
 #myBtn:hover {
-  background-color: darkgreen;
+  background-color: #847366e0;
   color: white;
 }
 
 .bg-4{
   outline: none;
-  background-color: green;
+  background-color: #847366a6;
 
 }
 
@@ -41,11 +41,14 @@ footer{
   width:100%;
   height:100%;
   height:calc(100% - 1px);
-  background-color: #fbd5d5;
+  background-color: white;
 }
 
 .form-area {
-  background-color: #847366a6;
+  background-image: url("images/headerimage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 20px 40px 60px;
   margin: 0px 0px 60px;
   border: 2px solid GREY;
@@ -55,20 +58,22 @@ footer{
 
 /*styles for heading before form */
 .header {
-  text-align: center;
-  padding: 20px;
-  font-size: 40px;
+
+  width: 100%;
+  min-height: auto;
+  background-position: center;
+  background-image: url("images/headerimage.png");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
   
 }
 
 .top-header{
-  width: 100%;
-  min-height: 200px;
-  background-position: center;
-  background-image:url("images/headerimage.png");
-  background-repeat: no-repeat;
-  overflow: hidden;
-
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  
 }
 
 /*for paragrah below form */
@@ -91,5 +96,9 @@ footer{
 }
  
 .btn-primary{
-  background-color: #333 !important;
+  background-color: rgba(51, 51, 51, 0.781) !important;
+}
+
+.btn-primary:hover{
+  background-color: rgba(51, 51, 51, 0.527) !important;
 }
