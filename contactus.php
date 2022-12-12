@@ -98,21 +98,21 @@ session_start();
   </nav>
 
   <div class="header">
-    <header class="top-header">
-      <strong>Contact <span class="edit"> Zarathelle PH </span></strong>
-      <br>
-      Get in touch with us for more inquiries or concerns.
-    </header>
-  </div>
+      <header class="top-header">
+        <strong>Contact Zarathelle PH</strong>
+        <br>
+        Get in touch with us for more inquiries or concerns.
+      </header>
+    </div>
 
+    
 
-
-  <div class="wide">
+    <div class="wide" >
     <div class="col-md-5" style="float: none; margin: 0 auto;">
-      <br><br><br>
+    <br><br><br>
       <div class="form-area">
         <form method="post" action="">
-          <br style="clear: both">
+        <br style="clear: both">
           <h3 style="margin-bottom: 25px; text-align: center; font-size: 30px;"> Contact Form</h3>
 
           <div class="form-group">
@@ -121,7 +121,7 @@ session_start();
 
           <div class="form-group">
             <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
-          </div>
+          </div>     
 
           <div class="form-group">
             <input type="Number" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
@@ -132,21 +132,17 @@ session_start();
           </div>
 
           <div class="form-group">
-            <textarea class="form-control" type="textarea" id="message" name="message" placeholder="Message"
-              maxlength="140" rows="7"></textarea>
-            <span class="help-block">
-              <p id="characterLeft" class="help-block">Max Character length : 140 </p>
-            </span>
-          </div>
-          <input type="submit" name="submit" type="button" id="submit" name="submit"
-            class="btn btn-primary pull-right" />
+           <textarea class="form-control" type="textarea" id="message" name="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+           <span class="help-block"><p id="characterLeft" class="help-block">Max Character length : 140 </p></span>
+          </div> 
+          <input type="submit" name="submit" type="button" id="submit" name="submit" class="btn btn-primary pull-right"/>    
         </form>
 
-
+        
       </div>
     </div>
-
-  </div>
+      
+    </div>
 
   <?php
   if (isset($_POST['submit'])) {
