@@ -87,7 +87,7 @@ if (isset($_SESSION['login_user2'])) {
 
   <div class="container">
     <div class="jumbotron">
-      <h1>Hi Guest,<br> Welcome to <span class="edit"> Le Cafe' </span></h1>
+      <h1>Hi Guest,<br> Welcome to <span class="edit">Zarathelle PH</span></h1>
       <br>
       <p>Kindly LOGIN to continue.</p>
     </div>
